@@ -1,3 +1,140 @@
-.navbar{
+@import '/src/styles/variables.scss';
 
+
+.navbar{
+    background-color: $light-color;
+    position: fixed;
+    top: 0;
+    top: -(130px+($spacing-m *5));
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0px 10px 34px rgba(0, 0, 0, 0.494); // Drop shadow effect
+    transition: 0.3s ease-in-out;
+    padding: $spacing-l $spacing-m;
+
+    &.active {
+        top: 0; // Example: Reset the top position
+        transition: 0.3s ease-in-out;
+    }
+
+    ul{
+        li{
+            list-style: none;
+    
+        }
+    }
+    
+    .topNav{
+        button{
+            text-decoration: underline;
+        }
+    }
+    .subNav{
+        button{
+            font-size: 26px;
+            font-family: 'Decima Bold', 'Roboto', sans-serif!important;
+        }
+    
+    
+    
+    
+
+    }
+
+    
+
+#mobileMenu {
+    position: absolute;
+    top: 130px+($spacing-m *5);
+    right: 0;
+    z-index: 2000;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+
+    &.active {
+        top: 0;
+        transition: 0.3s ease-in-out;
+    }
+
+    #lineContainer {
+        position: relative;
+        width: 60%;
+        height: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .line {
+        position: absolute;
+        width: 100%;
+        height: 6px;
+        background-color: $dark-color;
+        border-radius: 30px;
+        transition: 0.3s ease-in-out;
+    }
+
+    #line-1 {
+
+        top: 25%;
+
+        &.active {
+            transform: rotate(45deg);
+            top: 50%;
+        }
+    }
+
+    #line-2 {
+        bottom: 25%;
+
+        &.active {
+            transform: rotate(-45deg);
+            top: 50%;
+        }
+    }
+
+    &:hover {
+        .line {
+            background-color: $primary-color;
+            transition: 0.3s ease-in-out;
+        }
+    }
 }
+    
+    
+    @media (min-width: $screensize-tablet) {
+        top: 0;
+        border-bottom: none;
+        transition: 0.3s ease-in-out;
+        #mobileMenu {
+            display: none;
+        }
+
+        .topNav{
+            background-color: red;
+        }
+    
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            height: 80px;
+            margin-top: 0;
+            li {
+                padding-left: $spacing-m;
+                a{
+                    font-size: unset;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+

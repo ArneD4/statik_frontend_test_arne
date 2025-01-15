@@ -6,8 +6,12 @@
 // TYPOGRAPHY
 h1{
     font-family: 'Decima', 'Roboto', sans-serif;
-    font-size: 70px;
+    font-size: 50px;
     color: $primary-color;
+    // mobile media query
+    @media (min-width: 768px){
+        font-size: 70px;
+    }
 }
 
 h2{
@@ -40,6 +44,7 @@ p{
     color: $dark-color;
 }
 
+// BUTTONS
 button {
     font-family: 'Decima', 'Roboto', sans-serif!important;
     font-size: 18px;
@@ -99,4 +104,17 @@ button {
             }
         }
     }
+}
+
+
+
+
+// TABLET SIZE
+@media (min-width: $screensize-tablet){
+    
+}
+
+// DESKTOP SIZE
+@media (min-width: $screensize-desktop){
+    
 }

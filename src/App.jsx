@@ -7,7 +7,6 @@ function App() {
   const { t, i18n } = useTranslation();
   return (
     <>
-    <h1>{t('navbar.title')}</h1>
       <Navbar />  
     </>
   )

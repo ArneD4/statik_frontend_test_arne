@@ -33,10 +33,40 @@ const Navbar = () => {
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
+    const navItems = t('navbar.topNav', { returnObjects: true });
+    if (Array.isArray(navItems)) {
+      console.log('navItems is an array:', navItems);
+    } else {
+      console.log('navItems is not an array');
+    }
+
   };
 
   return (
     <nav className="navbar" ref={navbarRef}>
+
+       <ul className="nav-items topNav">
+        {/* // top navbar */}
+        {t('navbar.topNav', { returnObjects: true }).map((item, index) => (
+          console.log(item),
+          <li key={index} className="nav-item">
+        <button href={item.link}>{item.title}</button>
+          </li>
+        ))}
+        </ul>
+        <ul className="nav-items subNav">
+        {/* // sub navbar */}
+        {t('navbar.subNav', { returnObjects: true }).map((item, index) => (
+          console.log(item),
+          <li key={index} className="nav-item">
+        <button href={item.link}>{item.title}</button>
+          </li>
+        ))}
+        <li key={4} className="nav-item">
+        <button className="secondary" href={""}>{t('navbar.cta')}</button>
+          </li>
+        </ul>
+  
 
       <div id="mobileMenu" ref={mobileMenuRef}>
         <div id="lineContainer">
