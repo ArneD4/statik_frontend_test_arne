@@ -1,13 +1,17 @@
 {
   "navbar": {
-    "item1": "Nieuws",
-    "item2": "Team & Contact",
-    "item3": "Over Smart Hub",
-    "item4": "Over kennisregio Vlaams-Brabant",
-    "itemA": "Projecten",
-    "itemB": "Sectoren",
-    "itemC": "Activiteiten",
-    "itemD": "Ontdek hoe wij kunnen helpen",
+    "topNav": {
+      "item1": "Nieuws",
+      "item2": "Team & Contact",
+      "item3": "Over Smart Hub",
+      "item4": "Over kennisregio Vlaams-Brabant"
+    },
+    "subNav": {
+      "itemA": "Projecten",
+      "itemB": "Sectoren",
+      "itemC": "Activiteiten",
+      "itemD": "Ontdek hoe wij kunnen helpen"
+    },
     "taal": "NL"
   },
   "hero": {
@@ -26,7 +30,8 @@
     "title": "Leer meer over onze projecten",
     "text": "We ondersteunen projecten in Food, Health, Creativity, Logistics & Cleantech. Lorem justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas faucibus mollis interdum.",
     "button": "Alle projecten",
-    "project_1": {
+    "projectenLijst": {
+      "project_1": {
       "title": "cleantech",
       "text": "Lorem ipsum dolor sit amet"
     },
@@ -49,6 +54,167 @@
     "project_6": {
       "title": "cleantech",
       "text": "Fusce dapibus, tellus ac cursus "
+    }
+    }
+  },
+  "sectoren": {
+    "subtitle": "Sectoren",
+    "title": "Donec id elit non mi porta",
+    "text": "Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "cta": "Ontdek meer over onze sectoren",
+    "sectorenLijst": {
+      "sector_1": {
+        "title": "Food",
+        "text": "Lorem ipsum dolor sit amet"
+      },
+      "sector_2": {
+        "title": "Health",
+        "text": "Vestibulum id ligula porta"
+    },
+      "sector_3": {
+        "title": "Creativity",
+        "text": "Fusce dapibus, tellus ac cursus "
+      },
+      "sector_4": {
+        "title": "Logistics",
+        "text": "Lorem ipsum dolor sit amet"
+      },
+      "sector_5": {
+        "title": "Cleantech",
+        "text": "Vestibulum id ligula porta"
+      }
+    }
+  },
+  "cijfers": {
+    "subtitle": "In cijfers",
+    "title": "Praesent commodo cursus magna",
+    "text": "Onze impact integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas faucibus mollis interdum.",
+    "cijferLijst": {
+      "cijfer_1": {
+        "text_1": "Sinds 2000 meer dan",
+        "text_2": "135",
+        "text_3": "verschillende projecten ondersteund met subsidies"
+      },
+      "cijfer_2": {
+        "text_1": "Meer dan",
+        "text_2": "€ 8.000.000",
+        "text_3": "aan subsidies uitgekeerd aan innovatieve projecten binnen Vlaams Brabant"
+      },
+      "cijfer_3": {
+        "text_1": "Meer dan",
+        "text_2": "16.695",
+        "text_3": "extra jobs in onze regio"
+      }
+    }
+  },
+  "agenda": {
+    "subtitle": "Agenda",
+    "title": "Binnenkort",
+    "text": "We organiseren regelmatig events en workshops. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas faucibus mollis interdum.",
+    "button": "Bijk alle evenementen",
+    "activiteitenLijst": {
+      "activiteit_1": {
+        "title": "Design for Innovation - Learn & Match",
+        "badges": ["Laatste tickets, Uitverkocht, Conference"],
+        "datum": "04/03/2023",
+        "locatie": "Leuven"
+      },
+      "activiteit_2": {
+        "title": "Future generation conference",
+        "badges": ["Conference"],
+        "datum": "04/03/2023",
+        "locatie": "Leuven"
+      },
+      "activiteit_3": {
+        "title": "Design for Innovation - Learn & Match",
+        "badges": ["Laatste tickets, Uitverkocht, Conference"],
+        "datum": "04/03/2023",
+        "locatie": "Leuven"
+      },
+      "activiteit_4": {
+        "title": "Design for Innovation - Learn & Match",
+        "badges": ["Laatste tickets, Uitverkocht, Conference"],
+        "datum": "04/03/2023",
+        "locatie": "Leuven"
+      },
+      "activiteit_5": {
+        "title": "Design for Innovation - Learn & Match",
+        "badges": ["Laatste tickets, Uitverkocht, Conference"],
+        "datum": "04/03/2023",
+        "locatie": "Leuven"
+      },
+      "activiteit_6": {
+        "title": "Design for Innovation - Learn & Match",
+        "badges": ["Laatste tickets, Uitverkocht, Conference"],
+        "datum": "04/03/2023",
+        "locatie": "Leuven"
+      }
+    }
+  },
+  "Nieuws": {
+    "subtitle": "Nieuws",
+    "title": "Actueel",
+    "button": "Bekijk alle nieuws",
+    "nieuwsLijst": {
+      "nieuws_1": {
+        "title": "Versterk Smart Hub: twee dynamische specialisten gezocht!",
+        "button": "Meer lezen"
+      },
+      "nieuws_2": {
+        "title": "Danone verlengt titel ‘Factory of the Future’ in Rotselaar",
+        "button": "Meer lezen"
+      },
+      "nieuws_3": {
+        "title": "Versterk Smart Hub: twee dynamische specialisten gezocht!",
+        "button": "Meer lezen"
+      },
+      "nieuws_4": {
+        "title": "Danone verlengt titel ‘Factory of the Future’ in Rotselaar",
+        "button": "Meer lezen"
+      },
+      "nieuws_5": {
+        "title": "Versterk Smart Hub: twee dynamische specialisten gezocht!",
+        "button": "Meer lezen"
+      },
+      "nieuws_6": {
+        "title": "Danone verlengt titel ‘Factory of the Future’ in Rotselaar",
+        "button": "Meer lezen"
+      }
+  }
+  },
+  "footer": {
+    "footerCopy": {
+      "titel1": "Kennisregio Vlaams-Brabant",
+      "text1": "Een unieke concentratie van kennisinstellingen en –bedrijven, in het hart van Europa.",
+      "title2": "Algemene vragen",
+      "email": "info@smarthubvlaamsbrabant.be",
+      "tel": "+32 (0)16 12 30 00",
+      "title3": "Volg ons via",
+      "title4": "Een initiatief van"
+    },
+    "footerNavBig": {
+      "item1": "Projecten",
+      "item2": "Sectoren",
+      "item3": "Agenda"
+    },
+    "footerNavSmall": {
+      "item1": "Team & Contact",
+      "item2": "Over Smart Hub Vlaams-Brabant",
+      "item3": "Nieuws",
+      "item4": "Over kennisregio Vlaams-Brabant"
+    },
+    "formCopy": {
+      "title": "Schrijf je in op onze nieuwsbrief",
+      "text": "Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. ",
+      "privacy": "Ik verklaar dat ik de privacy policy heb gelezen en goedgekeurd.",
+      "button": "Inschrijven"
+    },
+    "footerLegal": {
+      "text": "© smarthubvlaamsbrabant.be – Built with (hartje) by Statik.be",
+      "toegankeijkheid": "Toegankelijkheid",
+      "privacy": "Privacy Policy",
+      "cookie": "Cookie Policy",
+      "cookieSettings": "Cookie settings"
     }
   }
 }
