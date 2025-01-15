@@ -1,0 +1,54 @@
+{
+  "navbar": {
+    "item1": "Nieuws",
+    "item2": "Team & Contact",
+    "item3": "Over Smart Hub",
+    "item4": "Over kennisregio Vlaams-Brabant",
+    "itemA": "Projecten",
+    "itemB": "Sectoren",
+    "itemC": "Activiteiten",
+    "itemD": "Ontdek hoe wij kunnen helpen",
+    "taal": "NL"
+  },
+  "hero": {
+    "title": "Vandaag innoveren voor morgen.",
+    "subtitle": "Smart Hub investeert in slimme projecten,  verbindt partners en opent deuren in het buitenland.",
+    "button": "Ontdek hoe wij kunnen helpen"
+  },
+  "intro": {
+    "subtitle": "Innovatiesteun",
+    "title": "Komt u in aanmerking voor een subsidie?",
+    "text": "Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas faucibus mollis interdum.",
+    "button": "Ontdek de innovatiesubsidie"
+  },
+  "projecten": {
+    "subtitle": "In de kijker",
+    "title": "Leer meer over onze projecten",
+    "text": "We ondersteunen projecten in Food, Health, Creativity, Logistics & Cleantech. Lorem justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas faucibus mollis interdum.",
+    "button": "Alle projecten",
+    "project_1": {
+      "title": "cleantech",
+      "text": "Lorem ipsum dolor sit amet"
+    },
+    "project_2": {
+      "title": "cleantech",
+      "text": "Vestibulum id ligula porta felis euismod semper"
+    },
+    "project_3": {
+      "title": "cleantech",
+      "text": "Fusce dapibus, tellus ac cursus "
+    },
+    "project_4": {
+      "title": "cleantech",
+      "text": "Lorem ipsum dolor sit amet"
+    },
+    "project_5": {
+      "title": "cleantech",
+      "text": "Vestibulum id ligula porta felis euismod semper"
+    },
+    "project_6": {
+      "title": "cleantech",
+      "text": "Fusce dapibus, tellus ac cursus "
+    }
+  }
+}
