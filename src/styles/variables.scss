@@ -1,3 +1,90 @@
 ///FONTS
-/// 
-/// 
+
+/// Roboto
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+///Decima
+@font-face {
+    font-family: "Decima";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/public/fonts/Decima+.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Decima Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/public/fonts/Decima+\ Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Decima Light";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/public/fonts/Decima+\ Light.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Decima Nova";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/public/fonts/Decima\ Nova.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Decima Nova Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/public/fonts/Decima\ Nova\ Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Decima Nova Bold Italic";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/public/fonts/Decima\ Nova\ Bold\ Italic.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Decima Nova Heavy";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/public/fonts/Decima\ Nova\ Heavy.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Decima Nova Heavy Italic";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/public/fonts/Decima\ Nova\ Heavy\ Italic.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Decima Nova Italic";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/public/fonts/Decima\ Nova\ Italic.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Decima Nova Light";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/public/fonts/Decima\ Nova\ Light.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Decima Nova Light Italic";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/public/fonts/Decima\ Nova\ Light\ Italic.ttf") format("truetype");
+}
+
+/// COLORS
+$dark-color: #000000;
+$light-color: #f7f7f7;
+$gray-color: #f1f1f1;
+$primary-color: #D32318;
+$gradient: linear-gradient(94.04deg, #D32318 36.15%, #F92114 98.19%);
+
+// SPACINGS
+$spacing-xxs: 18px;
+$spacing-xs: 24px;
+$spacing-s: 48px;
+$spacing-m: 56px;
+$spacing-l: 72px;
+$spacing-xl: 114px;
+$spacing-xxl: 146px;
+$spacing-xxxl: 175px;
+

@@ -45,8 +45,8 @@ const Navbar = () => {
         </div>
       </div>
       <div className="language-switcher">
-        <button onClick={() => changeLanguage('nl')}>NL</button>
-        <button onClick={() => changeLanguage('en')}>EN</button>
+        <button className="" onClick={() => changeLanguage('nl')}>NL</button>
+        <button className="secondary" onClick={() => changeLanguage('en')}>EN</button>
       </div>
     </nav>
   );
