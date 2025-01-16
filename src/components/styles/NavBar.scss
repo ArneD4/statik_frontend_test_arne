@@ -55,6 +55,7 @@
             padding: $spacing-xxxs;
             img{
                 width: 18px;
+                min-width: 18px;
                 height: 18px;
             }
         }
@@ -168,7 +169,7 @@
 }
     
     
-    @media (min-width: $screensize-tablet) {
+    @media (min-width: $screensize-desktop) {
         top: 0;
         border-bottom: none;
         transition: 0.3s ease-in-out;

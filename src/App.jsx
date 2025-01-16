@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Navbar from './components/NavBar'
 import Hero from './components/Hero'
 import Intro from './components/Intro'
+import Projects from './components/Projects'
 import { useTranslation } from 'react-i18next';
 
 
@@ -12,6 +13,7 @@ function App() {
       <Navbar />  
       <Hero />
       <Intro />
+      <Projects />
     </>
   )
 }

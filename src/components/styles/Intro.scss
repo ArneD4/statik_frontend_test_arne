@@ -9,8 +9,7 @@
         flex-direction: column;
         gap: $spacing-sm;
     }
-}
-
+    
 @media (min-width: $screensize-tablet) {
     .inner{
         position: absolute;
@@ -18,10 +17,11 @@
         top: 20%;
         left: 50%;
         flex-direction: row!important;
-        gap: $spacing-m;
+        gap: $spacing-m;;
         #introLeft{
             width: 100%;
         }
 
     }
+}
 }

@@ -1,0 +1,8 @@
+@import '/src/styles/variables.scss';
+
+#projects{
+    padding-top: $spacing-l;
+    @media (min-width: $screensize-tablet) {
+        padding-top: $spacing-l + 200px;
+    }
+}
