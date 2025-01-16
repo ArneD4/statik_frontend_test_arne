@@ -12,35 +12,46 @@ body{
 h1{
     font-family: 'Decima', 'Roboto', sans-serif;
     font-size: 50px;
-    color: $primary-color;
+    line-height: 45px;
+    color: $light-color;
+    margin-bottom: $spacing-xxs;
     // mobile media query
     @media (min-width: 768px){
         font-size: 70px;
+        line-height: 60px;
     }
 }
 
 h2{
     font-family: 'Decima', 'Roboto', sans-serif;
-    font-size: 50px;
+    font-size: 45px;
+    line-height: 50px;
     color: $dark-color;
+    margin-bottom: $spacing-xxs;
 }
 
 h3{
     font-family: 'Decima', 'Roboto', sans-serif;
-    font-size: 45px;
+    font-size: 40px;
+    line-height: 45px;
     color: $dark-color;
+    margin-bottom: $spacing-xxs;
 }
 
 h4{
     font-family: 'Decima', 'Roboto', sans-serif;
-    font-size: 35px;
+    font-size: 30px;
+    line-height: 35px;
     color: $dark-color;
+    margin-bottom: $spacing-xxs;
 }
 
 h5{
-    font-family: 'Decima', 'Roboto', sans-serif;
-    font-size: 32px;
+    font-family: 'Decima Light', 'Roboto', sans-serif;
+    font-size: 28px;
+    line-height: 32px;
     color: $dark-color;
+    margin-bottom: $spacing-xxs;
 }
 
 p{
@@ -112,6 +123,7 @@ button {
 }
 
 .inner{
+    width: 90%;
     max-width: 1225px;
     margin: auto;
 }
