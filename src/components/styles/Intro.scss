@@ -1,0 +1,27 @@
+@import '/src/styles/variables.scss';
+
+#intro{
+    position: relative;
+    .inner{
+        background-color: $light-color;
+        padding: $spacing-l $spacing-m;
+        display: flex;
+        flex-direction: column;
+        gap: $spacing-sm;
+    }
+}
+
+@media (min-width: $screensize-tablet) {
+    .inner{
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 20%;
+        left: 50%;
+        flex-direction: row!important;
+        gap: $spacing-m;
+        #introLeft{
+            width: 100%;
+        }
+
+    }
+}

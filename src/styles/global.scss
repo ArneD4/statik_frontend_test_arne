@@ -23,7 +23,7 @@ h1{
 }
 
 h2{
-    font-family: 'Decima', 'Roboto', sans-serif;
+    font-family: 'Decima Light', 'Roboto', sans-serif;
     font-size: 45px;
     line-height: 50px;
     color: $dark-color;
@@ -57,7 +57,9 @@ h5{
 p{
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
+    font-weight: 300;
     color: $dark-color;
+    margin-bottom: $spacing-xxs;
 }
 
 // BUTTONS
@@ -126,6 +128,14 @@ button {
     width: 90%;
     max-width: 1225px;
     margin: auto;
+}
+
+.smallRedTitle{
+    font-family: 'Decima Light', 'Roboto', sans-serif;
+    font-size: 18px;
+    color: $primary-color;
+    margin-bottom: $spacing-xxxs;
+    text-transform: uppercase;
 }
 
 
