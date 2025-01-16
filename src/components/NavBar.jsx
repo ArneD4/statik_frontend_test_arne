@@ -94,12 +94,15 @@ const Navbar = () => {
           {/* // sub navbar */}
           {t("navbar.subNav", { returnObjects: true }).map((item, index) => (
             <li key={index} className="nav-item">
-              <button href={item.link}>{item.title}</button>
+              <button href={item.link}>
+                {item.title}
+              </button>
             </li>
           ))}
           <li key={4} className="nav-item">
             <button className="secondary" href={""}>
               {t("navbar.cta")}
+              <img src="/images/icons/right_red.png" alt="" />
             </button>
           </li>
         </div>

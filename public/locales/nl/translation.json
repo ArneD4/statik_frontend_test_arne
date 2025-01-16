@@ -36,32 +36,44 @@
       {
         "id": "1",
         "title": "cleantech",
-        "text": "Lorem ipsum dolor sit amet"
+        "subtitle": "Lorem ipsum dolor sit amet",
+        "text": "KU Leuven en ingenieursbureau Comate ontwikkelen een innovatieve technologie waarbij een patiënt thuis, op een gebruiksvriendelijke en pijnloze manier, zelf een bloedstaal kan afnemen via een vingerprik.",
+        "button": "Meer lezen"
       },
       {
         "id": "2",
         "title": "cleantech",
-        "text": "Vestibulum id ligula porta felis euismod semper"
+        "subtitle": "Vestibulum id ligula porta felis euismod semper",
+        "text": "KU Leuven en ingenieursbureau Comate ontwikkelen een innovatieve technologie waarbij een patiënt thuis, op een gebruiksvriendelijke en pijnloze manier, zelf een bloedstaal kan afnemen via een vingerprik.",
+        "button": "Meer lezen"
       },
       {
         "id": "3",
         "title": "cleantech",
-        "text": "Fusce dapibus, tellus ac cursus "
+        "subtitle": "Fusce dapibus, tellus ac cursus ",
+        "text": "KU Leuven en ingenieursbureau Comate ontwikkelen een innovatieve technologie waarbij een patiënt thuis, op een gebruiksvriendelijke en pijnloze manier, zelf een bloedstaal kan afnemen via een vingerprik.",
+        "button": "Meer lezen"
       },
       {
         "id": "4",
         "title": "cleantech",
-        "text": "Lorem ipsum dolor sit amet"
+        "subtitle": "Lorem ipsum dolor sit amet",
+        "text": "KU Leuven en ingenieursbureau Comate ontwikkelen een innovatieve technologie waarbij een patiënt thuis, op een gebruiksvriendelijke en pijnloze manier, zelf een bloedstaal kan afnemen via een vingerprik.",
+        "button": "Meer lezen"
       },
       {
         "id": "5",
         "title": "cleantech",
-        "text": "Vestibulum id ligula porta felis euismod semper"
+        "subtitle": "Vestibulum id ligula porta felis euismod semper",
+        "text": "KU Leuven en ingenieursbureau Comate ontwikkelen een innovatieve technologie waarbij een patiënt thuis, op een gebruiksvriendelijke en pijnloze manier, zelf een bloedstaal kan afnemen via een vingerprik.",
+        "button": "Meer lezen"
       },
       {
         "id": "6",
         "title": "cleantech",
-        "text": "Fusce dapibus, tellus ac cursus "
+        "subtitle": "Fusce dapibus, tellus ac cursus ",
+        "text": "KU Leuven en ingenieursbureau Comate ontwikkelen een innovatieve technologie waarbij een patiënt thuis, op een gebruiksvriendelijke en pijnloze manier, zelf een bloedstaal kan afnemen via een vingerprik.",
+        "button": "Meer lezen"
       }
     ]
   },

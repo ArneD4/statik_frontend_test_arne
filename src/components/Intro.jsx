@@ -12,7 +12,10 @@ const Intro = () => {
                 </div>
                 <div className="introContent" id="introRight">
                 <p>{t('intro.text')}</p>
-                <button className="secondary">{t('intro.button')}</button>
+                <button className="secondary">
+                    {t('intro.button')}
+                    <img src="/images/icons/right_red.png" alt="" />
+                </button>
                 </div>
             </div>
         </div>

@@ -10,7 +10,10 @@ const Hero = () => {
         <div id="heroContent">
           <h1>{t("hero.title")}</h1>
           <h5>{t("hero.subtitle")}</h5>
-          <button className="primary">{t("hero.button")}</button>
+          <button className="primary">
+            {t("hero.button")}
+            <img src="/images/icons/right_white.png" alt="" />
+          </button>
         </div>
       </div>
     </div>

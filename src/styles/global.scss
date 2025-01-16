@@ -64,6 +64,10 @@ p{
 
 // BUTTONS
 button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: $spacing-xxxs;
     font-family: 'Decima', 'Roboto', sans-serif!important;
     font-size: 18px;
     color: $dark-color;
