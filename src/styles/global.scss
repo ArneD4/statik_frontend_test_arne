@@ -67,7 +67,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: $spacing-xxxs;
+    gap: 6px;
     font-family: 'Decima', 'Roboto', sans-serif!important;
     font-size: 18px;
     color: $dark-color;
@@ -88,6 +88,7 @@ button {
         color: $light-color;
         border-radius: 500px;
         padding: $spacing-xxs $spacing-xs;
+        gap: $spacing-xxxs;
         &:hover{
             &::after {
                 content: '';
@@ -110,6 +111,7 @@ button {
         border: 1px solid $dark-gray-color;
         border-radius: 500px;
         padding: $spacing-xxs $spacing-xs;
+        gap: $spacing-xxxs;
         &:hover{
             background: $gradient;
             color: $light-color;
@@ -130,8 +132,8 @@ button {
 
 .inner{
     width: 90%;
-    max-width: 1225px;
-    margin: auto;
+    // max-width: 1225px;
+     margin: auto;
 }
 
 .smallRedTitle{
@@ -150,5 +152,7 @@ button {
 
 // DESKTOP SIZE
 @media (min-width: $screensize-desktop){
-    
+    .inner{
+        width: 80%;
+    }
 }

@@ -1,0 +1,51 @@
+@import '/src/styles/variables.scss';
+
+#cijfers{
+    background-color: $light-color;
+    .inner{
+        padding: $spacing-l $spacing-m;
+        .grid{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            padding-top: $spacing-m;
+            .grid-item {
+                aspect-ratio: 1 / 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                padding: $spacing-m;
+                background-color: $gray-color;
+                h3{
+                    color: $primary-color   ;
+                }
+            }
+
+            #grid-item-1{
+                background: url('/images/cijfers_1.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            #grid-item-3{
+                background: url('/images/cijfers_2.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            #grid-item-5{
+                background: url('/images/cijfers_3.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+    }
+
+    // DESKTOP SIZE
+@media (min-width: $screensize-desktop){
+    .grid{
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr))!important;
+    }
+}
+}

@@ -1,0 +1,45 @@
+@import '/src/styles/variables.scss';
+
+#sectoren{
+    padding: $spacing-l 0;
+    .inner{
+        padding: $spacing-l $spacing-m;
+        background: url('/images/logo_big.png') no-repeat right bottom;
+        background-color: $light-color;
+        #sectorenLijst{
+            padding: $spacing-l 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-end;
+            gap: $spacing-l;
+
+            & > * {
+                position: relative;
+                &:not(:last-child)::after {
+                    content: '';
+                    position: absolute;
+                    right: -$spacing-l / 2;
+                    top: 0;
+                    bottom: 0;
+                    width: 1px;
+                    background-color: $dark-gray-color;
+                }
+            }
+            .sectorItem{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: $spacing-s;
+                height: 125px;
+                .sectorIcon{
+                    width: 50px;
+                }
+                button{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

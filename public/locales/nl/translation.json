@@ -38,42 +38,48 @@
         "title": "cleantech",
         "subtitle": "Lorem ipsum dolor sit amet",
         "text": "KU Leuven en ingenieursbureau Comate ontwikkelen een innovatieve technologie waarbij een patiënt thuis, op een gebruiksvriendelijke en pijnloze manier, zelf een bloedstaal kan afnemen via een vingerprik.",
-        "button": "Meer lezen"
+        "button": "Meer lezen",
+        "img": "/images/project_1.png"
       },
       {
         "id": "2",
         "title": "cleantech",
         "subtitle": "Vestibulum id ligula porta felis euismod semper",
         "text": "KU Leuven en ingenieursbureau Comate ontwikkelen een innovatieve technologie waarbij een patiënt thuis, op een gebruiksvriendelijke en pijnloze manier, zelf een bloedstaal kan afnemen via een vingerprik.",
-        "button": "Meer lezen"
+        "button": "Meer lezen",
+        "img": "/images/project_1.png"
       },
       {
         "id": "3",
         "title": "cleantech",
         "subtitle": "Fusce dapibus, tellus ac cursus ",
         "text": "KU Leuven en ingenieursbureau Comate ontwikkelen een innovatieve technologie waarbij een patiënt thuis, op een gebruiksvriendelijke en pijnloze manier, zelf een bloedstaal kan afnemen via een vingerprik.",
-        "button": "Meer lezen"
+        "button": "Meer lezen",
+        "img": "/images/project_2.png"
       },
       {
         "id": "4",
         "title": "cleantech",
         "subtitle": "Lorem ipsum dolor sit amet",
         "text": "KU Leuven en ingenieursbureau Comate ontwikkelen een innovatieve technologie waarbij een patiënt thuis, op een gebruiksvriendelijke en pijnloze manier, zelf een bloedstaal kan afnemen via een vingerprik.",
-        "button": "Meer lezen"
+        "button": "Meer lezen",
+        "img": "/images/project_1.png"
       },
       {
         "id": "5",
         "title": "cleantech",
         "subtitle": "Vestibulum id ligula porta felis euismod semper",
         "text": "KU Leuven en ingenieursbureau Comate ontwikkelen een innovatieve technologie waarbij een patiënt thuis, op een gebruiksvriendelijke en pijnloze manier, zelf een bloedstaal kan afnemen via een vingerprik.",
-        "button": "Meer lezen"
+        "button": "Meer lezen",
+        "img": "/images/project_2.png"
       },
       {
         "id": "6",
         "title": "cleantech",
         "subtitle": "Fusce dapibus, tellus ac cursus ",
         "text": "KU Leuven en ingenieursbureau Comate ontwikkelen een innovatieve technologie waarbij een patiënt thuis, op een gebruiksvriendelijke en pijnloze manier, zelf een bloedstaal kan afnemen via een vingerprik.",
-        "button": "Meer lezen"
+        "button": "Meer lezen",
+        "img": "/images/project_2.png"
       }
     ]
   },
@@ -81,32 +87,37 @@
     "subtitle": "Sectoren",
     "title": "Donec id elit non mi porta",
     "text": "Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "cta": "Ontdek meer over onze sectoren",
+    "button": "Ontdek meer over onze sectoren",
     "sectorenLijst": [
       {
         "id": "1",
         "title": "Food",
-        "text": "Lorem ipsum dolor sit amet"
+        "text": "Lorem ipsum dolor sit amet",
+        "img": "/images/food.svg"
       },
       {
         "id": "2",
         "title": "Health",
-        "text": "Vestibulum id ligula porta"
+        "text": "Vestibulum id ligula porta",
+        "img": "/images/health.svg"
     },
      {
         "id": "3",
         "title": "Creativity",
-        "text": "Fusce dapibus, tellus ac cursus "
+        "text": "Fusce dapibus, tellus ac cursus ",
+        "img": "/images/creativity.svg"
       },
       {
         "id": "4",
         "title": "Logistics",
-        "text": "Lorem ipsum dolor sit amet"
+        "text": "Lorem ipsum dolor sit amet",
+        "img": "/images/logistics.svg"
       },
       {
         "id": "5",
         "title": "Cleantech",
-        "text": "Vestibulum id ligula porta"
+        "text": "Vestibulum id ligula porta",
+        "img": "/images/cleantech.svg"
       }
     ]
   },

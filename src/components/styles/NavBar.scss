@@ -179,7 +179,7 @@
         ul {
             height: 80px;
             // margin-top: 0;
-            padding: $spacing-xs;
+            padding: $spacing-xs 0;
             li {
                 padding-left: $spacing-m;
                 margin-bottom: 0;
@@ -194,21 +194,19 @@
                 flex-direction: row;
                 justify-content: flex-end;
                 align-items: center;
-                margin: 0;
-                width: 100%;
             }
         }
 
         #logo{
-            bottom: -116px;
+            bottom: -114px;
             left: 0;
-            width: 146px;
-            height: 146px;
+            width: 148px;
+            height: 148px;
         }
 
         #topNav{
             background-color: $light-color;
-            height: 58px;
+            height: 55px;
             .inner{
                 height: 100%;
             }
