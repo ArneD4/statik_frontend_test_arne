@@ -6,7 +6,7 @@
         padding: $spacing-l $spacing-m;
         .grid{
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(300px, 3fr));
             padding-top: $spacing-m;
             .grid-item {
                 aspect-ratio: 1 / 1;
@@ -17,6 +17,7 @@
                 text-align: center;
                 padding: $spacing-m;
                 background-color: $gray-color;
+                overflow: hidden;
                 h3{
                     color: $primary-color   ;
                 }
@@ -45,7 +46,7 @@
     // DESKTOP SIZE
 @media (min-width: $screensize-desktop){
     .grid{
-        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr))!important;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 3fr))!important;
     }
 }
 }
