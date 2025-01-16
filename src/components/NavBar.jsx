@@ -40,62 +40,69 @@ const Navbar = () => {
   };
 
   const toggleLanguageButtonActive = () => {
-      console.log(languageButtonRef.current.classList)
-      if(languageButtonRef.current.classList.contains('active')){
-        languageButtonRef.current.classList.remove('active')
-      } else {
-        languageButtonRef.current.classList.add('active')
-      }
-  }
+    console.log(languageButtonRef.current.classList);
+    if (languageButtonRef.current.classList.contains("active")) {
+      languageButtonRef.current.classList.remove("active");
+    } else {
+      languageButtonRef.current.classList.add("active");
+    }
+  };
 
   return (
     <nav id="navbar" ref={navbarRef}>
-      <div id="logo">
-        <img src="/images/logo.png" alt="" />
-      </div>
       <ul className="nav-items" id="topNav">
-        {/* // top navbar */}
-        {t("navbar.topNav", { returnObjects: true }).map(
-          (item, index) => (
-            console.log(item),
-            (
-              <li key={index} className="nav-item">
-                <button href={item.link}>{item.title}</button>
-              </li>
+        <div className="inner">
+          <div id="logo">
+            <img src="/images/logo.png" alt="" />
+          </div>
+          {/* // top navbar */}
+          {t("navbar.topNav", { returnObjects: true }).map(
+            (item, index) => (
+              console.log(item),
+              (
+                <li key={index} className="nav-item">
+                  <button href={item.link}>{item.title}</button>
+                </li>
+              )
             )
-          )
-        )}
-      <div id="searchAndLanguage">
-      <div id="search">
-          <img src="/images/icons/search.png" alt="" />
-        </div>
-        <div className="spacer"></div>
-        <div id="languageSwitcher">
-          <div id="languageDropdownButton" onClick={() => toggleLanguageButtonActive()}>
-            {t('language')} 
-            <img src="/images/icons/arrow_down.png" alt="" />
+          )}
+          <div id="searchAndLanguage">
+            <div id="search">
+              <img src="/images/icons/search.png" alt="" />
+            </div>
+            <div className="spacer"></div>
+            <div id="languageSwitcher">
+              <div
+                id="languageDropdownButton"
+                onClick={() => toggleLanguageButtonActive()}
+              >
+                {t("language")}
+                <img src="/images/icons/arrow_down.png" alt="" />
+              </div>
+              <div id="languageDropdownMenu" ref={languageButtonRef}>
+                <button className="" onClick={() => changeLanguage("nl")}>
+                  NL
+                </button>
+                <button onClick={() => changeLanguage("en")}>EN</button>
+              </div>
+            </div>
           </div>
-          <div id="languageDropdownMenu"  ref={languageButtonRef}>
-          <button className="" onClick={() => changeLanguage("nl")}>
-            NL
-          </button>
-          <button onClick={() => changeLanguage("en")}>EN</button>
-          </div>
         </div>
-      </div>
       </ul>
       <ul className="nav-items" id="subNav">
-        {/* // sub navbar */}
-        {t("navbar.subNav", { returnObjects: true }).map((item, index) => (
-          <li key={index} className="nav-item">
-            <button href={item.link}>{item.title}</button>
+        <div className="inner">
+          {/* // sub navbar */}
+          {t("navbar.subNav", { returnObjects: true }).map((item, index) => (
+            <li key={index} className="nav-item">
+              <button href={item.link}>{item.title}</button>
+            </li>
+          ))}
+          <li key={4} className="nav-item">
+            <button className="secondary" href={""}>
+              {t("navbar.cta")}
+            </button>
           </li>
-        ))}
-        <li key={4} className="nav-item">
-          <button className="secondary" href={""}>
-            {t("navbar.cta")}
-          </button>
-        </li>
+        </div>
       </ul>
 
       <div id="mobileMenu" ref={mobileMenuRef}>

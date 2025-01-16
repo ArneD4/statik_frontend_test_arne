@@ -4,12 +4,13 @@
 #navbar{
     position: fixed;
     top: 0;
-    top: -(250px+($spacing-m *9));
+    top: -700px;
     width: 100%;
     z-index: 1000;
     box-shadow: 0px 10px 34px rgba(0, 0, 0, 0.494); // Drop shadow effect
     transition: 0.3s ease-in-out;
     text-align: left;
+    background-color: $light-color;
     &.active {
         top: 0; // Example: Reset the top position
         transition: 0.3s ease-in-out;
@@ -25,7 +26,7 @@
     
     #logo{
         position: absolute;
-        top: (190px+($spacing-m *9));
+        bottom: -90px;
         width: 145px;
         height: 145px;
     }
@@ -35,7 +36,7 @@
         }
     }
     #subNav{
-        padding-top: $spacing-m;
+        padding-top: $spacing-s;
         button{
             font-size: 20px;
             font-family: 'Decima Bold', 'Roboto', sans-serif!important;
@@ -104,13 +105,13 @@
 
 #mobileMenu {
     position: absolute;
-    top: 250px+($spacing-m *9);
-    right: 0;
+    top: 700px;
+    right: $spacing-m;
     z-index: 2000;
     height: 100px;
     width: 100px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     cursor: pointer;
     transition: 0.3s ease-in-out;
@@ -171,19 +172,42 @@
         top: 0;
         border-bottom: none;
         transition: 0.3s ease-in-out;
-        background-color: none;
+        background-color: transparent;
         box-shadow: none;
-        #mobileMenu {
-            display: none;
+
+        ul {
+            height: 80px;
+            margin-top: 0;
+            padding: 0 $spacing-xxs;
+            li {
+                padding-left: $spacing-m;
+                margin-bottom: 0;
+                a{
+                    font-size: unset;
+                    text-decoration: none;
+                }
+            }
+            .inner{
+                position: relative;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                align-items: center;
+                width: 100%;
+            }
         }
 
         #logo{
             top: 0;
+            left: 0;
         }
 
         #topNav{
             background-color: $light-color;
             height: 58px;
+            .inner{
+                height: 100%;
+            }
         }
 
         #subNav{
@@ -207,24 +231,11 @@
                 height: 24px;
             }
         }
-    
-        ul {
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-end;
-            align-items: center;
-            height: 80px;
-            margin-top: 0;
-            padding: 0 $spacing-xxs;
-            li {
-                padding-left: $spacing-m;
-                margin-bottom: 0;
-                a{
-                    font-size: unset;
-                    text-decoration: none;
-                }
-            }
+
+        #mobileMenu {
+            display: none;
         }
+
     }
 }
 
